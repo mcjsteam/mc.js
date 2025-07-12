@@ -1,14 +1,12 @@
 # mc.js.cool 网页版MC 官方 GitHub 仓库
 
+# 此仓库目前仅用于 issues 反馈，不提供原代码。
+
 在一台临时的电脑上想快速体验MC中文版？打开 www.mc.js.cool ，不用下载Java/启动器/客户端，不要繁琐的配置操作，打开网页就能玩！
 
-## mc.js 是基于 eaglercraft 和其它开源 WebMC 项目的中文优化版本，是一个网页版不用下载就能玩的 MC 。
-
-## 此仓库目前用于反馈交流，欢迎在这里提交 issues。 
+mc.js 是基于 eaglercraft 和其它开源 WebMC 项目的中文优化版本，是一个网页版不用下载就能玩的 MC 。
 
 ## 为本仓库点上你的 star ！后续可能会在这里更新一些有意思的东西。
-
-下面是 www.mc.js.cool 官网的网页内容，在这里再发布一份 MarkDown 格式版。
 
 ---
 
@@ -16,15 +14,17 @@
 
 在一台临时的电脑上想快速体验MC中文版？打开 www.mc.js.cool ，不用下载Java/启动器/客户端，不要繁琐的配置操作，打开网页就能玩！
 
-有任何问题请先滑到页面最下面看常见问题解答！建议所有用户都先阅读一遍！若疑难解答不能解决您的问题，欢迎提issues反馈交流！
+Eaglercraft 介绍：Eaglercraft 是由 Eaglercraft 开发团队制作的在 Javascript 上运行的网页版 MC ，基于 MCJE 。使用 TeaVM 和 OpenGL 模拟器来运行与浏览器完全兼容的 Java 虚拟机。Eaglercraft 是众多网页版 MC 开源项目中完成度最高的，支持 MC 的几乎全部特性。MC.JS 仅为 Eaglercraft 开源项目的中文汉化分支，与 Eaglercraft 官方没有从属关系。
 
-**版权声明**：本网站仅整合了从网络上收录的部分开源网页MC项目的修改版本，本网站上的所有资源均来自第三方，所有内容仅供学习参考！部分项目可能含有版权争议，MC.JS 并不提供在线服务！ 为防止本站出现版权问题，用户在使用 MC.JS时 ，MC.JS 默认用户已购正版 MC ，且只在 MC.JS 上使用离线的单人游戏。
+MC.JS 介绍：MC.JS 是专为国人优化的 Eaglercraft 的中文版，是众多网页版 Eaglercraft 中汉化最好的，还原 MCJE 体验。MC.JS 仅为 Eaglercraft 开源项目的中文汉化分支，与 Eaglercraft 官方没有从属关系。
 
-**隐私与服务条款**：本网站是纯静态HTML网站，我们不会收集任何的用户信息，我们不会跟踪您，我们不会将您的数据出售给第三方，我们没有接入任何广告平台且不含任何广告。同时，您不会将我们的服务用于任何非法或未经授权的目的，您使用我们的服务不会违反任何适用的法律或法规。
+关于 JS 版 和 WASMGC 版：WASMGC，即 WebAssembly GC，是在最新的 Chrome 浏览器上的新技术。 采用 WASMGC 的新版本相较于 JS 版 FPS 几乎提高了 2 倍，但是如果您的设备较旧或内存不足，它可能会运行不稳定或崩溃。WASMGC 功能可能需要手动开启，一般情况下用传统的 JS 版就行了，有高帧率需求的可尝试 WASMGC 版。
 
-Eaglercraft 介绍：Eaglercraft 是由 Eaglercraft 开发团队制作的在 Javascript 上运行的网页版 MC ，基于 MCJE 。使用 TeaVM 和 OpenGL 模拟器来运行与浏览器完全兼容的 Java 虚拟机。 MC.JS 仅为 Eaglercraft 开源项目的中文汉化分支，与 Eaglercraft 官方没有从属关系。
+鸣谢/开源代码引用：lax1dude/eaglercraft（已删库）
 
-关于 JS 版 和 WASMGC 版：WASMGC，即 WebAssembly GC，是在最新的 Chrome 浏览器上的新技术。 采用 WASMGC 的新版本相较于 JS 版 FPS 几乎提高了 2 倍，但是如果您的设备较旧或内存不足，它可能会运行不稳定或崩溃。WASMGC 功能可能需要手动开启，一般情况下用传统的 JS 版就行了，有高帧率（>100FPS）需求的可尝试 WASMGC 版。
+隐私与服务条款：本网站是纯静态HTML网站，我们不会收集任何的用户信息，我们不会跟踪您，我们不会将您的数据出售给第三方。同时，您不会将我们的服务用于任何非法或未经授权的目的，您使用我们的服务不会违反任何适用的法律或法规，您已阅读并同意 Minecraft EULA 协议。
+
+版权声明：本网站仅整合了从网络上收录的部分开源网页MC项目的修改版本，本网站上的所有资源均来自第三方，所有内容仅供学习参考！部分项目可能含有版权争议，MC.JS 并不提供付费在线服务！为防止本站出现版权问题，用户在使用 MC.JS 时，MC.JS 默认用户已购正版 Minecraft ，已同意 Minecraft EULA 协议。若不同意许可协议，请退出。MC.JS 不用于任何的商业用途，MC.JS 不提供离线盗版资源，也不允许任何的恶意盗版游戏行为。
 
 ## 常见问题解答
 
@@ -32,7 +32,7 @@ Eaglercraft 介绍：Eaglercraft 是由 Eaglercraft 开发团队制作的在 Jav
 
 1. 
 - Q：mc.js.cool 网页能打开，但是打开很慢，加载很久。
-- A：旧的 mc.js.cool/b.mc.js.cool 等链接已弃用，现已统一跳转至 www.mc.js.cool 。推荐使用 IPv6 访问本站，本站的 IPv6 连接更佳。
+- A：现在有 4 个镜像站可以选择。
 
 2. 
 - Q：mc.js.cool 网页不能打开/被拦截/DNS劫持。
@@ -79,7 +79,7 @@ Eaglercraft 介绍：Eaglercraft 是由 Eaglercraft 开发团队制作的在 Jav
 
 1.
 - Q：联系MC.JS
-- A：如果您有什么想法和建议，或者是想和我们合作，本页面上方的Github仓库issues链接就是我们的唯一官方联系方式。因为广告邮件太多，之前的联系邮箱已停用。有任何问题提issues就行，我们会在2~14天内回复。
+- A：如果您有什么想法和建议，或者是想和我们合作，本页面上方的Github仓库issues链接就是我们的唯一官方联系方式。因为广告邮件太多，之前的联系邮箱已停用。有任何问题提issues就行，我们会在2~10天内回复。
 
 2.
 - Q：宣传MC.JS，以MC.JS为素材
@@ -87,7 +87,7 @@ Eaglercraft 介绍：Eaglercraft 是由 Eaglercraft 开发团队制作的在 Jav
 
 3.
 - Q：支持MC.JS
-- A：**MC.JS是100%公益无盈利的网站，网站绝对安全，可以放心访问。我们保证不收集您的任何信息，本页面无任何广告。我们暂不接受赞助或广告。MC.JS只有一个目的就是将网页版MC这种优秀的项目推广到中文游戏圈**。感谢您的支持。
+- A：**MC.JS是100%公益网站，网站绝对安全，可以放心访问。我们保证不收集您的任何信息。MC.JS只有一个目的就是将网页版MC这种优秀的项目推广到中文游戏圈**。感谢您的支持。
 
 4.
 - Q：更多问题
@@ -95,12 +95,13 @@ Eaglercraft 介绍：Eaglercraft 是由 Eaglercraft 开发团队制作的在 Jav
 
 ---
 
-Copyright © 2025 MC.JS . All rights reserved .
+隐私与服务条款：本网站是纯静态HTML网站，我们不会收集任何的用户信息，我们不会跟踪您，我们不会将您的数据出售给第三方。同时，您不会将我们的服务用于任何非法或未经授权的目的，您使用我们的服务不会违反任何适用的法律或法规，您已阅读并同意 Minecraft EULA 协议。
 
-本站只是MC爱好者的开源项目汇聚，与"Minecraft"以及"我的世界"没有从属关系
+版权声明：本网站仅整合了从网络上收录的部分开源网页MC项目的修改版本，本网站上的所有资源均来自第三方，所有内容仅供学习参考！部分项目可能含有版权争议，MC.JS 并不提供付费在线服务！为防止本站出现版权问题，用户在使用 MC.JS 时，MC.JS 默认用户已购正版 Minecraft ，已同意 Minecraft EULA 协议。若不同意许可协议，请退出。MC.JS 不用于任何的商业用途，MC.JS 不提供离线盗版资源，也不允许任何的恶意盗版游戏行为。
 
-**版权声明**：本网站仅整合了从网络上收录的部分开源网页MC项目的修改版本，本网站上的所有资源均来自第三方，所有内容仅供学习参考！部分项目可能含有版权争议，MC.JS 并不提供在线服务！ 为防止本站出现版权问题，用户在使用 MC.JS时 ，MC.JS 默认用户已购正版 MC ，且只在 MC.JS 上使用离线的单人游戏。
 
-**隐私与服务条款**：本网站是纯静态HTML网站，我们不会收集任何的用户信息，我们不会跟踪您，我们不会将您的数据出售给第三方，我们没有接入任何广告平台且不含任何广告。同时，您不会将我们的服务用于任何非法或未经授权的目的，您使用我们的服务不会违反任何适用的法律或法规。
+Copyright © 2022-2025 MC.JS . All rights reserved .
 
-We (mc.js.cool) are not affiliated with Minecraft, Mojang, or Microsoft. This website is for educational purposes only. We do not host any games on our servers nor do we condone piracy.
+本站只是MC爱好者的开源项目汇聚，与"Minecraft"以及"我的世界"没有从属关系。
+
+We are not affiliated with Minecraft, Mojang, or Microsoft. This website is for educational purposes only. We do not host any games on our servers nor do we condone piracy.
