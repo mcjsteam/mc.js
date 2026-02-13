@@ -1,107 +1,19 @@
-# mc.js.cool 网页版MC 官方 GitHub 仓库
+# MCJS.CC 网页版MC 官方 GitHub 仓库
 
-# 此仓库目前仅用于 issues 反馈，不提供原代码。
+## 此仓库目前仅用于 issues 反馈，不提供原代码。
 
-在一台临时的电脑上想快速体验MC中文版？打开 www.mc.js.cool ，不用下载Java/启动器/客户端，不要繁琐的配置操作，打开网页就能玩！
+### README 内容已迁至网页，更多信息请前往 https://mcjs.cc 查看
 
-mc.js 是基于 eaglercraft 和其它开源 WebMC 项目的中文优化版本，是一个网页版不用下载就能玩的 MC 。
+在一台临时的电脑上想快速体验MC中文版？打开 mcjs.cc ，不用下载Java/启动器/客户端，不要繁琐的配置操作，打开网页就能玩！
 
-## 为本仓库点上你的 star ！后续可能会在这里更新一些有意思的东西。
-
----
-
-## 简介
-
-在一台临时的电脑上想快速体验MC中文版？打开 www.mc.js.cool ，不用下载Java/启动器/客户端，不要繁琐的配置操作，打开网页就能玩！
-
-Eaglercraft 介绍：Eaglercraft 是由 Eaglercraft 开发团队制作的在 Javascript 上运行的网页版 MC ，基于 MCJE 。使用 TeaVM 和 OpenGL 模拟器来运行与浏览器完全兼容的 Java 虚拟机。Eaglercraft 是众多网页版 MC 开源项目中完成度最高的，支持 MC 的几乎全部特性。MC.JS 仅为 Eaglercraft 开源项目的中文汉化分支，与 Eaglercraft 官方没有从属关系。
-
-MC.JS 介绍：MC.JS 是专为国人优化的 Eaglercraft 的中文版，是众多网页版 Eaglercraft 中汉化最好的，还原 MCJE 体验。MC.JS 仅为 Eaglercraft 开源项目的中文汉化分支，与 Eaglercraft 官方没有从属关系。
-
-关于 JS 版 和 WASMGC 版：WASMGC，即 WebAssembly GC，是在最新的 Chrome 浏览器上的新技术。 采用 WASMGC 的新版本相较于 JS 版 FPS 几乎提高了 2 倍，但是如果您的设备较旧或内存不足，它可能会运行不稳定或崩溃。WASMGC 功能可能需要手动开启，一般情况下用传统的 JS 版就行了，有高帧率需求的可尝试 WASMGC 版。
-
-鸣谢/开源代码引用：lax1dude/eaglercraft（已删库）
-
-隐私与服务条款：本网站是纯静态HTML网站，我们不会收集任何的用户信息，我们不会跟踪您，我们不会将您的数据出售给第三方。同时，您不会将我们的服务用于任何非法或未经授权的目的，您使用我们的服务不会违反任何适用的法律或法规，您已阅读并同意 Minecraft EULA 协议。
-
-版权声明：本网站仅整合了从网络上收录的部分开源网页MC项目的修改版本，本网站上的所有资源均来自第三方，所有内容仅供学习参考！部分项目可能含有版权争议，MC.JS 并不提供付费在线服务！为防止本站出现版权问题，用户在使用 MC.JS 时，MC.JS 默认用户已购正版 Minecraft ，已同意 Minecraft EULA 协议。若不同意许可协议，请退出。MC.JS 不用于任何的商业用途，MC.JS 不提供离线盗版资源，也不允许任何的恶意盗版游戏行为。
-
-## 常见问题解答
-
-## mc.js.cool 网站 的问题
-
-1. 
-- Q：mc.js.cool 网页能打开，但是打开很慢，加载很久。
-- A：现在有 4 个镜像站可以选择。
-
-2. 
-- Q：mc.js.cool 网页不能打开/被拦截/DNS劫持。
-- A：运营商DNS经常会污染一些小众网站。将DNS地址改成 8.8.8.8（或其他无拦截公共DNS地址）即可解决，若还是不行请科学上网。MC.JS网站绝对安全，请放心访问。
-
-## Eaglercraft 的问题
-
-1.
-- Q：无法打开，卡在启动界面
-- A：尝试下列方法：
-- 方法1. 使用最新Chrome浏览器。Chrome浏览器开启图形加速功能。
-- 方法2. 使用最新64位的操作系统。系统版本推荐Windows10及以上，MacOS11及以上，Ubuntu22.04及以上（因为最新Chrome不再支持旧系统）。
-- 方法3. 确保你的显卡支持WebGL2，请使用2013年以后发布的显卡（GeForce GT 710 ，Radeon R5 240 及以上）。
-- 方法4. 如果是手机/平板电脑用户，请使用2018年以后发布的设备（iPhone 11 ，iPad 8 及以上）。
-- 方法5. 若您的设备实在不支持的话，很抱歉确实是因为设备问题，请下载正版MC，正版MC java版对性能要求就没那么高了。
-
-2.
-- Q：打开了，但很卡，帧数很低
-- A：网页版MC是这样的，帧数远比客户端版的低，请降低画质。另外可以测试WASMGC版本。若实在不行，还是建议使用正版客户端MC。
-
-3.
-- Q：联机游戏问题
-- A：本游戏可以局域网联机，但是和客户端的MC无法互通。网页MC的用户少，并且大多数都是为了临时使用MC，长期玩还是得使用更流畅的客户端MC，因此无法提供联机服务器。想自行制作MC服务器的不必考虑网页MC。
-
-4.
-- Q：离线下载游戏HTML文件
-- A：1.12.2的测试版有，版权原因其它的暂不提供。
-
-5.
-- Q：类似项目，制作方法，开源等问题
-- A：Eaglercraft的类似项目非常的多，但因为版权争议，原作者删除掉了Github代码仓库，所以这里提供不了相关信息。您可以自行搜索Eaglercraft相关项目，有些项目很不错，并且也支持联机服务器。没有必要踩一捧一。MC.JS专为中文用户服务，免费、无广告、精简、完美汉化这方面我们做的最好。直接使用本站就行。
-
-## WASMGC 的额外问题
-
-1.
-- Q：错误: JSPI 功能未开启（Error: JSPI is not enabled!）
-- A：报错的话页面上有个提示，根据提示可以解决这个问题，若还是不行，说明您的设备或浏览器不支持。若要最佳兼容性还是得使用普通JS版。
-
-2.
-- Q：性能怎么比普通版差
-- A：WASM-GC在大部分情况下帧数会比普通JS版提升50~200% 。只不过目前该版本只是测试版，效果因设备而异。
-
-## 其他问题
-
-1.
-- Q：联系MC.JS
-- A：如果您有什么想法和建议，或者是想和我们合作，本页面上方的Github仓库issues链接就是我们的唯一官方联系方式。因为广告邮件太多，之前的联系邮箱已停用。有任何问题提issues就行，我们会在2~10天内回复。
-
-2.
-- Q：宣传MC.JS，以MC.JS为素材
-- A：感谢您在b站等平台对我们的宣传。本站默认允许大家作为素材进行创作。但请注意，Minecraft是收费游戏，免费的网页版MC.JS包含的部分项目（Eaglercraft）可能含有版权争议。相关项目很多，不要踩一捧一。默认大家都已购正版MC。
-
-3.
-- Q：支持MC.JS
-- A：**MC.JS是100%公益网站，网站绝对安全，可以放心访问。我们保证不收集您的任何信息。MC.JS只有一个目的就是将网页版MC这种优秀的项目推广到中文游戏圈**。感谢您的支持。
-
-4.
-- Q：更多问题
-- A：感谢您阅读完了本常见问题解答。这里没提到的更多问题提Github issues即可。
+MCJS 是基于 Eaglercraft 和其它开源 WebMC 项目的中文优化版本，是一个网页版不用下载就能玩的 MC 。
 
 ---
 
-隐私与服务条款：本网站是纯静态HTML网站，我们不会收集任何的用户信息，我们不会跟踪您，我们不会将您的数据出售给第三方。同时，您不会将我们的服务用于任何非法或未经授权的目的，您使用我们的服务不会违反任何适用的法律或法规，您已阅读并同意 Minecraft EULA 协议。
+**Note**
 
-版权声明：本网站仅整合了从网络上收录的部分开源网页MC项目的修改版本，本网站上的所有资源均来自第三方，所有内容仅供学习参考！部分项目可能含有版权争议，MC.JS 并不提供付费在线服务！为防止本站出现版权问题，用户在使用 MC.JS 时，MC.JS 默认用户已购正版 Minecraft ，已同意 Minecraft EULA 协议。若不同意许可协议，请退出。MC.JS 不用于任何的商业用途，MC.JS 不提供离线盗版资源，也不允许任何的恶意盗版游戏行为。
+This website is only available to Simplified-Chinese(China) users. We do not provide support for users of other languages. Please find similar projects in your local area on your own.
 
-
-Copyright © 2022-2025 MC.JS . All rights reserved .
-
-本站只是MC爱好者的开源项目汇聚，与"Minecraft"以及"我的世界"没有从属关系。
+There is no game-related code in this repository.
 
 We are not affiliated with Minecraft, Mojang, or Microsoft. This website is for educational purposes only. We do not host any games on our servers nor do we condone piracy.
