@@ -1,38 +1,16 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Bug 提交
+about: 游戏途中出现 Bug/崩溃 等无法解决的问题
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**提交问题前的注意事项**
+- [ ] 1. 我已明确在多次尝试后未能自己修复问题，Bug 仍有出现
+- [ ] 2. 我已仔细阅读网站主页下的 [“常见问题FAQ”](https://mcjs.cc/#faq) 板块，不会重复提问常见问题
+- [ ] 3. 我已仔细翻阅过 [所有近期issues](https://github.com/mcjsteam/mc.js/issues) ，不会重复提问别人已经问过/已解决过的问题
+- [ ] 4. **确保上述所有注意事项已满足之后，在最下方开始描述您的问题，若您未达成注意事项（无意义内容/重复提问），此 issues 将会直接关闭；若您的反馈有效，会在 1~4 天内收到回复，请及时查收，且若单次提问未能定位问题，您可能需要继续在下面回复，自得到回复当日起，单条 issues 开启时间不应超过 7 天，7天后自动关闭。感谢您的有效反馈！**
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+---
