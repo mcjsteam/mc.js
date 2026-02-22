@@ -1,8 +1,8 @@
 ---
 name: Bug 提交
 about: 游戏途中出现 Bug/崩溃 等无法解决的问题
-title: ''
-labels: ''
+title: '填入标题'
+labels: 'bug'
 assignees: ''
 
 ---
