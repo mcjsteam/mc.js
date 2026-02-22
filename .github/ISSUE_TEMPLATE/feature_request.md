@@ -1,20 +1,16 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: 建议/新功能需求
+about: 向我们提出建议和新功能需求
 title: ''
-labels: ''
+labels: '建议/新功能需求'
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**提交问题前的注意事项**
+- [ ] 1. 此建议或功能与 MCJS 有关，且对 MCJS 或许有很大帮助
+- [ ] 2. 我已仔细阅读网站主页下的 [“常见问题FAQ”](https://mcjs.cc/#faq) 板块，不会重复提问常见问题
+- [ ] 3. 我已仔细翻阅过 [所有近期issues](https://github.com/mcjsteam/mc.js/issues) ，不会重复提问别人已经问过/已解决过的问题
+- [ ] 4. **确保上述所有注意事项已满足之后，在最下方开始描述您的问题，若您未达成注意事项（无意义内容/重复提问），此 issues 将会直接关闭；若您的反馈有效，会在 1~4 天内收到回复，请及时查收，且若单次提问未能定位问题，您可能需要继续在下面回复，自得到回复当日起，单条 issues 开启时间不应超过 7 天，7天后自动关闭。感谢您的有效反馈！**
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+---
